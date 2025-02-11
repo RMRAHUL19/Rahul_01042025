@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.qa.tests.ExtentReporterNG" />
+</listeners>
+
+   
+   <!-- Test --> <test thread-count="50" name="Test1">
+    <classes>
+          <class name="com.qa.tests.InpatientManagement_WardBedStatusTest"/>
+          
+    </classes>
+    </test> 
+     
+    <test thread-count="50" name="Test2">
+    <classes>
+                    <class name="com.qa.tests.InpatientManagement_PatientDischargeTest"/>      
+    </classes>
+  
+  </test>
+  <!-- Test --> <test thread-count="50" name="Test3">
+    <classes>
+                    <class name="com.qa.tests.InpatientManagement_InvestigationRequestTest"/>
+          
+    </classes>
+  </test> 
+  <!-- Test --> <test thread-count="50" name="Test4">
+    <classes>
+                    <class name="com.qa.tests.InpatientManagement_TransferRequestTest"/>
+          
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

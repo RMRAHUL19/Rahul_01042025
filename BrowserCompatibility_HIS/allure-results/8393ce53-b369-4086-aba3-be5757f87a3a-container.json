@@ -1,0 +1,1 @@
+{"uuid":"8393ce53-b369-4086-aba3-be5757f87a3a","name":"TestSuite","children":["773b617b-9ba8-4550-b629-21dcded94c2f"],"befores":[{"name":"extentReportSetup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1645772608882,"stop":1645772608971}],"afters":[],"links":[],"start":1645772608874,"stop":1645772782311}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.HIS.BrowserCompatibility_HIS.Listner"/>
+  </listeners>
+  <test thread-count="5" name="Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.UHIDPageTest">
+        <methods>
+          <include name="To_Check_Functionality_UpdateButton"/>
+          <include name="Search_Patient_detailBy_IPnumberwith_nagative_Scenario"/>
+          <include name="closeBrowser"/>
+          <include name="To_Check_Functionality_SaveButton" invocation-numbers="0"/>
+          <include name="doNavigateToUHIDcreationLinkTest"/>
+          <include name="Check_FunctionalityOf_ClearButton" invocation-numbers="0"/>
+          <include name="To_Check_Functionality_UHIDSearch"/>
+          <include name="Check_the_Functionality_Of_OPDNumber"/>
+          <include name="doNavigateToHISHomeTest" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="doLoginTest"/>
+          <include name="Search_Patient_detailBy_IPnumber"/>
+          <include name="doNavigateToSelectHospitalLocationTest"/>
+        </methods>
+      </class> <!-- com.qa.HIS.BrowserCompatibility_HIS.UHIDPageTest -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

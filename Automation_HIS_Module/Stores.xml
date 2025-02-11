@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.qa.tests.ExtentReporterNG" />
+</listeners>
+
+ 
+  
+  <test thread-count="50" name="Test1">
+    <classes>
+                    <class name="com.qa.tests.IndentOrderTest"/> 
+    </classes>
+  </test>
+  <test thread-count="50" name="Test2">
+    <classes>
+                    <class name="com.qa.tests.AdjustmentTest"/>      
+    </classes>
+  </test>
+  <test thread-count="50" name="Test3">
+    <classes>
+                    <class name="com.qa.tests.StoreConsumptionTest"/>      
+    </classes>
+  </test>
+  <test thread-count="50" name="Test4">
+    <classes>
+                    <class name="com.qa.tests.LossBreakageTest"/>      
+    </classes>
+  </test>
+  <test thread-count="50" name="Test5">
+    <classes>
+                    <class name="com.qa.tests.AlterMRPPageTest"/>      
+    </classes>
+  </test>
+  <test thread-count="50" name="Test6">
+    <classes>
+                    <class name="com.qa.tests.IndentWorklistPageTest"/>      
+    </classes>
+  </test>
+  <test thread-count="50" name="Test7">
+    <classes>
+                    <class name="com.qa.tests.PhysicalStockEntryTest"/>      
+    </classes>
+  </test>
+   <test thread-count="50" name="Test8">
+    <classes>
+                    <class name="com.qa.tests.DownloadCRCItemListTest"/>      
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->

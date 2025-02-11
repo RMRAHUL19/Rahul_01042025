@@ -1,0 +1,1 @@
+{"uuid":"185f2ab8-97be-44a4-b5fa-e44b8bd2b797","name":"com.qa.tests.EditCertificateTest","children":["eba4fdb4-9489-44a0-be30-8667f7092197"],"befores":[{"name":"setuptest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1648811801409,"stop":1648811806243}],"afters":[],"links":[],"start":1648811801390,"stop":1648811806450}

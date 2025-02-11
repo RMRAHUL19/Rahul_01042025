@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="ESIC_HIS.ProductionScript.Listner" />
+</listeners>
+   <test thread-count="5" name="firefox">
+  <parameter name="browser" value="firefox" />
+    <classes>
+    <class name="ESIC_HIS.ProductionScript.InpatientManagement_AmbulanceRequestTest"/>
+      <!-- <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_PrimaryDoctorChangeTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_BedsideProceduresOrderTest"/> 
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_SpecialtyProcedureRequestTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_SurgeryRequestTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_NurseTasksTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardBedStatusTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_ProgressNotesTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardDashBoardTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_VitalsEntryTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_DoctorVisitTest"/>
+       <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_IntakeOutputEntryTest"/>
+       <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardUnitsTest"/>
+       <class name="ESIC_HIS.ProductionScript.InpatientManagement_ReportTest"/>-->
+       
+      
+      
+      </classes>
+  </test>
+  <!-- <test thread-count="5" name="Chrome">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_PrimaryDoctorChangeTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_BedsideProceduresOrderTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_SpecialtyProcedureRequestTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_SurgeryRequestTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_NurseTasksTest"/>
+       <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardBedStatusTest"/>
+       <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_ProgressNotesTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardDashBoardTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_VitalsEntryTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_DoctorVisitTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_IntakeOutputEntryTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardUnitsTest"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Edge">
+  <parameter name="browser" value="Edge" />
+    <classes>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_PrimaryDoctorChangeTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_BedsideProceduresOrderTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_SpecialtyProcedureRequestTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_SurgeryRequestTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_NurseTasksTest"/>
+       <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardBedStatusTest"/>
+       <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_ProgressNotesTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardDashBoardTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_VitalsEntryTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_DoctorVisitTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_IntakeOutputEntryTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardUnitsTest"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Opera">
+  <parameter name="browser" value="Opera" />
+    <classes>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_PrimaryDoctorChangeTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_BedsideProceduresOrderTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_SpecialtyProcedureRequestTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_SurgeryRequestTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_NurseTasksTest"/>
+       <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardBedStatusTest"/>
+       <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_ProgressNotesTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardDashBoardTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_VitalsEntryTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_DoctorVisitTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_IntakeOutputEntryTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.InpatientManagement_WardUnitsTest"/>
+    </classes>
+  </test>   -->
+  </suite>

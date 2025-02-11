@@ -1,0 +1,1 @@
+{"uuid":"655ed83e-51f5-4fbd-b164-13484a4fb17f","name":"com.qa.tests.ANMServicesTest","children":["7b30e18c-d746-4a51-9e53-f63f9636dfd8"],"befores":[{"name":"setuptest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1648786680847,"stop":1648786692185}],"afters":[],"links":[],"start":1648786680828,"stop":1648786692393}

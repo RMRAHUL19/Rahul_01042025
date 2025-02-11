@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_VitalsEntryTest"/>
+      <class name="ESIC_HIS.ProductionScript.AlterMRPPageTest"/>
+      <class name="ESIC_HIS.ProductionScript.DoctorWorklistTest"/>
+      <class name="com.qa.pages.OPDFlowPages"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_ReportTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_NurseTasksTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_WardDashBoardTest"/>
+      <class name="ESIC_HIS.ProductionScript.CancelCheckinTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_IntakeOutputEntryTest"/>
+      <class name="ESIC_HIS.ProductionScript.MISReportTest"/>
+      <class name="ESIC_HIS.ProductionScript.MiniCaseSheetTest"/>
+      <class name="ESIC_HIS.ProductionScript.LossBreakageTest"/>
+      <class name="ESIC_HIS.ProductionScript.StoreConsumptionTest"/>
+      <class name="ESIC_HIS.ProductionScript.IPDFlowTest"/>
+      <class name="ESIC_HIS.ProductionScript.OpenVisitTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_SpecialtyProcedureRequestTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_PrimaryDoctorChangeTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_BedsideProceduresOrderTest"/>
+      <class name="ESIC_HIS.ProductionScript.CDRTest"/>
+      <class name="ESIC_HIS.ProductionScript.Investigation_PrescriptionsTest"/>
+      <class name="ESIC_HIS.ProductionScript.OrderPacksTest"/>
+      <class name="ESIC_HIS.ProductionScript.Clinical_Record_ReportTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_WardUnitsTest"/>
+      <class name="ESIC_HIS.ProductionScript.DischargeIntimationTest"/>
+      <class name="ESIC_HIS.ProductionScript.PatientCheckInTest"/>
+      <class name="ESIC_HIS.ProductionScript.OPDFlowTest"/>
+      <class name="ESIC_HIS.ProductionScript.FUPTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientEmergencyPatientTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_ProgressNotesTest"/>
+      <class name="ESIC_HIS.ProductionScript.MaternityCertificateTest"/>
+      <class name="ESIC_HIS.ProductionScript.BedStatusTest"/>
+      <class name="ESIC_HIS.ProductionScript.DischargeSummaryTest"/>
+      <class name="ESIC_HIS.ProductionScript.PhysicalStockEntryTest"/>
+      <class name="ESIC_HIS.ProductionScript.PrevantingHealthCheckUpTest2"/>
+      <class name="com.qa.pages.SupplierManufactureBrandPages"/>
+      <class name="ESIC_HIS.ProductionScript.PatientAdmissionTest"/>
+      <class name="ESIC_HIS.ProductionScript.SupplierManufactureBrandTest"/>
+      <class name="ESIC_HIS.ProductionScript.DosageTypeTest"/>
+      <class name="ESIC_HIS.ProductionScript.UHIDPageTest"/>
+      <class name="ESIC_HIS.ProductionScript.PrevantingHealthCheckUpTest"/>
+      <class name="ESIC_HIS.ProductionScript.Emergency_Check_In_RegistrationTest"/>
+      <class name="ESIC_HIS.ProductionScript.ANMServicesTest"/>
+      <class name="ESIC_HIS.ProductionScript.Registration_ReportTest"/>
+      <class name="ESIC_HIS.ProductionScript.AdjustmentTest"/>
+      <class name="ESIC_HIS.ProductionScript.Check_In_Admission_of_Reffered_PatientsTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_SurgeryRequestTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_WardBedStatusTest"/>
+      <class name="ESIC_HIS.ProductionScript.OperationTheatreTest"/>
+      <class name="ESIC_HIS.ProductionScript.InpatientManagement_DoctorVisitTest"/>
+      <class name="ESIC_HIS.ProductionScript.ReportTemplateTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
