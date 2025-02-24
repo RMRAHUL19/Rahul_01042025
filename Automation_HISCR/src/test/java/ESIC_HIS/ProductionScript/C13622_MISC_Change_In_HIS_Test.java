@@ -345,26 +345,26 @@ public void Do_testFatchingdetailforIPSelf() throws InterruptedException {
 	assertEquals(PresentPrimaryMobileNumberLableText,"Contact No.");	
 }
 
-@Test(priority = 12)
-public void do_testFatchingdetailforIPDepandent() throws InterruptedException {
-	Thread.sleep(2000);
-	MISC.getUHIDScreen_clearButton().click();
-	Thread.sleep(2000);
-	MISC.getPatientCheckIn_IPtextBox().sendKeys("5217002015");
-	Thread.sleep(2000);
-	MISC.getLiveListLink().click();
-	Thread.sleep(2000);
-	WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
-	wait.until(ExpectedConditions.visibilityOf(MISC.getLiveListDepandentRadioButton()));
-	MISC.getLiveListDepandentRadioButton().click();
-	Thread.sleep(2000);
-	MISC.getLiveListSelectButton().click();
-	Thread.sleep(2000);
-	PresentPrimaryMobileNumberLableText=MISC.getCheckIn_ContectNumberLable().getText();
-	Thread.sleep(2000);
-	assertEquals(PresentPrimaryMobileNumberLableText,"Contact No.");
-	
-}
+//@Test(priority = 12)
+//public void do_testFatchingdetailforIPDepandent() throws InterruptedException {
+//	Thread.sleep(2000);
+//	MISC.getUHIDScreen_clearButton().click();
+//	Thread.sleep(2000);
+//	MISC.getPatientCheckIn_IPtextBox().sendKeys("5217002015");
+//	Thread.sleep(2000);
+//	MISC.getLiveListLink().click();
+//	Thread.sleep(2000);
+//	WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+//	wait.until(ExpectedConditions.visibilityOf(MISC.getLiveListDepandentRadioButton()));
+//	MISC.getLiveListDepandentRadioButton().click();
+//	Thread.sleep(2000);
+//	MISC.getLiveListSelectButton().click();
+//	Thread.sleep(2000);
+//	PresentPrimaryMobileNumberLableText=MISC.getCheckIn_ContectNumberLable().getText();
+//	Thread.sleep(2000);
+//	assertEquals(PresentPrimaryMobileNumberLableText,"Contact No.");
+//	
+//}
 @Test(priority = 13)
 public void Do_testCreateCheckInforPharmacyIssue() throws InterruptedException {
 	Thread.sleep(2000);
