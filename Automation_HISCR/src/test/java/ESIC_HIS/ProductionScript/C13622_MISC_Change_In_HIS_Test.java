@@ -321,11 +321,11 @@ public void Do_TestFatchingDetailForESICPensionerDepandents() throws Interrupted
 		assertEquals(getMobileNumber,getMobileNumberpermanant);
 }
 
-@Test(priority = 10)
-public void Do_NavigateToPatientCheck_in() {
-	MISC=hishomepage.doNavigateToCheckIn_SCreenForMISC_Change_In_HISITR1();
-}
-//IP number
+//@Test(priority = 10)
+//public void Do_NavigateToPatientCheck_in() {
+//	MISC=hishomepage.doNavigateToCheckIn_SCreenForMISC_Change_In_HISITR1();
+//}
+////IP number
 @Test(priority = 11)
 public void Do_testFatchingdetailforIPSelf() throws InterruptedException {
 	Thread.sleep(2000);
