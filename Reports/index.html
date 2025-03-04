@@ -1,0 +1,1461 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Extent Report</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Extent Report</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Mar 3, 2025 02:53:07 pm</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="page-container">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						
+						
+						
+						
+						
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="1"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">doLoginTest</p>
+							<p class="duration text-sm">0h 0m 1s+668ms</p>
+							<span class="datetime">14:53:14 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">doLoginTest</h5>
+									<span class='badge badge-success'>03.03.2025 14:53:14</span>
+									<span class='badge badge-danger'>03.03.2025 14:53:16</span>
+									<span class='badge badge-default'>0h 0m 1s+668ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:53:16 pm</td>
+				<td>
+						Enter User Name-applone
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:53:16 pm</td>
+				<td>
+						Enter Pass word-*********
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/doLoginTest_03032025025316.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/doLoginTest_03032025025316.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="2"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">doNavigateToSelectHospitalLocationTest</p>
+							<p class="duration text-sm">0h 0m 0s+6ms</p>
+							<span class="datetime">14:53:16 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">doNavigateToSelectHospitalLocationTest</h5>
+									<span class='badge badge-success'>03.03.2025 14:53:16</span>
+									<span class='badge badge-danger'>03.03.2025 14:53:16</span>
+									<span class='badge badge-default'>0h 0m 0s+6ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:53:16 pm</td>
+				<td>
+						Navigate to Hospital location Pages -Go to Applocation Select HIS
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/doNavigateToSelectHospitalLocationTest_03032025025316.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/doNavigateToSelectHospitalLocationTest_03032025025316.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="3"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">doNavigateToHISHomeTest</p>
+							<p class="duration text-sm">0h 0m 16s+4ms</p>
+							<span class="datetime">14:53:16 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">doNavigateToHISHomeTest</h5>
+									<span class='badge badge-success'>03.03.2025 14:53:16</span>
+									<span class='badge badge-danger'>03.03.2025 14:53:32</span>
+									<span class='badge badge-default'>0h 0m 16s+4ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:53:32 pm</td>
+				<td>
+						Step-1 Select Location-ESIC TEST HOSPITAL DL
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:53:32 pm</td>
+				<td>
+						Step-2 Select Facility-ADMINSTRATIVE SERVICES
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:53:32 pm</td>
+				<td>
+						Step-3 Select Submit Button-Click on Submit button
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/doNavigateToHISHomeTest_03032025025332.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/doNavigateToHISHomeTest_03032025025332.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="4"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">doNavigateToDrWorkList</p>
+							<p class="duration text-sm">0h 0m 6s+876ms</p>
+							<span class="datetime">14:53:33 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">doNavigateToDrWorkList</h5>
+									<span class='badge badge-success'>03.03.2025 14:53:33</span>
+									<span class='badge badge-danger'>03.03.2025 14:53:39</span>
+									<span class='badge badge-default'>0h 0m 6s+876ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:53:39 pm</td>
+				<td>
+						Step-1-go to doctorworklist
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/doNavigateToDrWorkList_03032025025339.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/doNavigateToDrWorkList_03032025025339.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="5"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">donavigatetoVideoConsultationpage</p>
+							<p class="duration text-sm">0h 0m 45s+936ms</p>
+							<span class="datetime">14:53:40 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">donavigatetoVideoConsultationpage</h5>
+									<span class='badge badge-success'>03.03.2025 14:53:40</span>
+									<span class='badge badge-danger'>03.03.2025 14:54:26</span>
+									<span class='badge badge-default'>0h 0m 45s+936ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:54:26 pm</td>
+				<td>
+						Step-1-click on video consultation hyperlink
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:54:26 pm</td>
+				<td>
+						Step-2-click on video consultation check-in number
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:54:26 pm</td>
+				<td>
+						Step-3-click on video consultation meeting link
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/donavigatetoVideoConsultationpage_03032025025426.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/donavigatetoVideoConsultationpage_03032025025426.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="6"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CheckFunctionalityOfChiefComplants</p>
+							<p class="duration text-sm">0h 0m 30s+93ms</p>
+							<span class="datetime">14:54:26 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">CheckFunctionalityOfChiefComplants</h5>
+									<span class='badge badge-success'>03.03.2025 14:54:26</span>
+									<span class='badge badge-danger'>03.03.2025 14:54:56</span>
+									<span class='badge badge-default'>0h 0m 30s+93ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:54:56 pm</td>
+				<td>
+						Step-1-search chief complaint
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:54:56 pm</td>
+				<td>
+						Step-2-Select chief complaint
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:54:56 pm</td>
+				<td>
+						Step-3-Add remark for  chief complaint
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:54:56 pm</td>
+				<td>
+						Step-4-Remove chief complaint
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:54:56 pm</td>
+				<td>
+						Step-5-Save chief complaint
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfChiefComplants_03032025025456.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfChiefComplants_03032025025456.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="7"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CheckFunctionalityOfPastHistory</p>
+							<p class="duration text-sm">0h 0m 53s+18ms</p>
+							<span class="datetime">14:54:57 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">CheckFunctionalityOfPastHistory</h5>
+									<span class='badge badge-success'>03.03.2025 14:54:57</span>
+									<span class='badge badge-danger'>03.03.2025 14:55:50</span>
+									<span class='badge badge-default'>0h 0m 53s+18ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-1-Go to Past History Tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-2-Fill Occupational History
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-3-Fill Smoking History
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-4-Fill History of Substance Abuse / Exposure
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-5-Fill Menstrual History
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-6-Fill Allergy History
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-7-Fill Known Co-existent Diseases
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-8-Fill Past Illness
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-9-Fill Family History of Illness
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-10-Fill Drug History and Current Medication
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:55:50 pm</td>
+				<td>
+						Step-11- Clear past history
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfPastHistory_03032025025550.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfPastHistory_03032025025550.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="8"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CheckFunctionalityOfHistoryOfPresentillness</p>
+							<p class="duration text-sm">0h 0m 17s+119ms</p>
+							<span class="datetime">14:55:50 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">CheckFunctionalityOfHistoryOfPresentillness</h5>
+									<span class='badge badge-success'>03.03.2025 14:55:50</span>
+									<span class='badge badge-danger'>03.03.2025 14:56:07</span>
+									<span class='badge badge-default'>0h 0m 17s+119ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:07 pm</td>
+				<td>
+						Step-1-Go to History of Present illness Tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:07 pm</td>
+				<td>
+						Step-2-Add history of present Illness
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:07 pm</td>
+				<td>
+						Step-3-Clear History of present illness
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:07 pm</td>
+				<td>
+						Step-4-Save history of present illness
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfHistoryOfPresentillness_03032025025607.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfHistoryOfPresentillness_03032025025607.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="9"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CheckFunctionalityOfRefferalAdvice</p>
+							<p class="duration text-sm">0h 0m 19s+327ms</p>
+							<span class="datetime">14:56:08 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">CheckFunctionalityOfRefferalAdvice</h5>
+									<span class='badge badge-success'>03.03.2025 14:56:08</span>
+									<span class='badge badge-danger'>03.03.2025 14:56:27</span>
+									<span class='badge badge-default'>0h 0m 19s+327ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:27 pm</td>
+				<td>
+						Step-1-Go to Referral Advice Tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:27 pm</td>
+				<td>
+						Step-2-Select Hospital
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:27 pm</td>
+				<td>
+						Step-3-Select specialization
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:27 pm</td>
+				<td>
+						Step-4-Enter Reason
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:27 pm</td>
+				<td>
+						Step-5-Click on Add button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:27 pm</td>
+				<td>
+						Step-6-Delete Added referral Advice
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:56:27 pm</td>
+				<td>
+						Step-7-Save Referral Advice
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfRefferalAdvice_03032025025627.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfRefferalAdvice_03032025025627.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="10"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CheckFunctionalityOfFollowUp</p>
+							<p class="duration text-sm">0h 0m 41s+244ms</p>
+							<span class="datetime">14:56:27 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">CheckFunctionalityOfFollowUp</h5>
+									<span class='badge badge-success'>03.03.2025 14:56:27</span>
+									<span class='badge badge-danger'>03.03.2025 14:57:09</span>
+									<span class='badge badge-default'>0h 0m 41s+244ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:09 pm</td>
+				<td>
+						Step-1-Go to Referral Advice Tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:09 pm</td>
+				<td>
+						Step-2-Click on Radio button of follow up
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:09 pm</td>
+				<td>
+						Step-3-Enter after number of days
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:09 pm</td>
+				<td>
+						Step-4-click on datebox
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:09 pm</td>
+				<td>
+						Step-5-click on save button
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfFollowUp_03032025025709.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfFollowUp_03032025025709.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="11"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CheckFunctionalityofmedicationInPrescriptions</p>
+							<p class="duration text-sm">0h 0m 46s+626ms</p>
+							<span class="datetime">14:57:09 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">CheckFunctionalityofmedicationInPrescriptions</h5>
+									<span class='badge badge-success'>03.03.2025 14:57:09</span>
+									<span class='badge badge-danger'>03.03.2025 14:57:56</span>
+									<span class='badge badge-default'>0h 0m 46s+626ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:56 pm</td>
+				<td>
+						Step-1-Go to Prescription Tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:56 pm</td>
+				<td>
+						Step-2-Add order pack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:56 pm</td>
+				<td>
+						Step-3-Add Medication
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:56 pm</td>
+				<td>
+						Step-4-Add FUP
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:56 pm</td>
+				<td>
+						Step-5-Add FUP
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:56 pm</td>
+				<td>
+						Step-6-Delete FUP
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:57:56 pm</td>
+				<td>
+						Step-7-Save FUP
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityofmedicationInPrescriptions_03032025025756.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityofmedicationInPrescriptions_03032025025756.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="12"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CheckFunctionalityOfInvesitgationPrescriptions</p>
+							<p class="duration text-sm">0h 0m 31s+424ms</p>
+							<span class="datetime">14:57:56 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">CheckFunctionalityOfInvesitgationPrescriptions</h5>
+									<span class='badge badge-success'>03.03.2025 14:57:56</span>
+									<span class='badge badge-danger'>03.03.2025 14:58:27</span>
+									<span class='badge badge-default'>0h 0m 31s+424ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:58:27 pm</td>
+				<td>
+						Step-1-Go to investigation tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:58:27 pm</td>
+				<td>
+						Step-2-ADD investigation
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:58:27 pm</td>
+				<td>
+						Step-3-Add investigation Remark
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:58:27 pm</td>
+				<td>
+						Step-4-Save investigation
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfInvesitgationPrescriptions_03032025025827.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfInvesitgationPrescriptions_03032025025827.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="13"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CheckFunctionalityOfDiagnosisPrescriptions</p>
+							<p class="duration text-sm">0h 0m 36s+246ms</p>
+							<span class="datetime">14:58:28 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">CheckFunctionalityOfDiagnosisPrescriptions</h5>
+									<span class='badge badge-success'>03.03.2025 14:58:28</span>
+									<span class='badge badge-danger'>03.03.2025 14:59:04</span>
+									<span class='badge badge-default'>0h 0m 36s+246ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:59:04 pm</td>
+				<td>
+						Step-1-Go to Diagnosis Tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:59:04 pm</td>
+				<td>
+						Step-2-Add Diagnosis
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:59:04 pm</td>
+				<td>
+						Step-3-Add FUP Diagnosis
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:59:04 pm</td>
+				<td>
+						Step-4-Delete Diagnosis
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:59:04 pm</td>
+				<td>
+						Step-5-Save Diagnosis
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfDiagnosisPrescriptions_03032025025904.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfDiagnosisPrescriptions_03032025025904.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="14"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CheckFunctionalityOfclinicaladvicePrescriptions</p>
+							<p class="duration text-sm">0h 0m 13s+774ms</p>
+							<span class="datetime">14:59:05 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">CheckFunctionalityOfclinicaladvicePrescriptions</h5>
+									<span class='badge badge-success'>03.03.2025 14:59:05</span>
+									<span class='badge badge-danger'>03.03.2025 14:59:18</span>
+									<span class='badge badge-default'>0h 0m 13s+774ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:59:18 pm</td>
+				<td>
+						Step-1-Go to Clinical Advice Tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:59:18 pm</td>
+				<td>
+						Step-2-Add Clinial Advice
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:59:18 pm</td>
+				<td>
+						Step-3-Add Remark
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>2:59:18 pm</td>
+				<td>
+						Step-4-Save Clinical Advice
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="#" data-featherlight="image">
+				<img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfclinicaladvicePrescriptions_03032025025918.png' src='E:\BrowserCompatibility_HIS/FailedTestsScreenshots/CheckFunctionalityOfclinicaladvicePrescriptions_03032025025918.png'>
+			</a>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='100%'>
+						<b>14</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> tests failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='100%'><b>62</b> events passed</small></div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> events failed, 
+						<b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">14</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>100.00%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">Mar 3, 2025 02:53:07 pm</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 6m 12s+282ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Environment</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Value</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Rahul Mishra</td>
+								<td>Automation Tester</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 14,
+		passParent: 14,
+		failParent: 0,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 0,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 62,
+		passEvents: 62,
+		failEvents: 0,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 0,
+		infoEvents: 0,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "doLoginTest":1.668,"doNavigateToSelectHospitalLocationTest":0.006,"doNavigateToHISHomeTest":16.004,"doNavigateToDrWorkList":6.876,"donavigatetoVideoConsultationpage":45.936,"CheckFunctionalityOfChiefComplants":30.093,"CheckFunctionalityOfPastHistory":53.018,"CheckFunctionalityOfHistoryOfPresentillness":17.119,"CheckFunctionalityOfRefferalAdvice":19.327,"CheckFunctionalityOfFollowUp":41.244,"CheckFunctionalityofmedicationInPrescriptions":46.626,"CheckFunctionalityOfInvesitgationPrescriptions":31.424,"CheckFunctionalityOfDiagnosisPrescriptions":36.246,"CheckFunctionalityOfclinicaladvicePrescriptions":13.774
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/spark/js/spark-script.js"></script>
+</body>
+</html>

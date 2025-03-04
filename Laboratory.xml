@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.qa.HIS.BrowserCompatibility_HIS.Listner" />
+</listeners>
+ <test thread-count="5" name="firefox">
+  <parameter name="browser" value="firefox" />
+    <classes>
+     <class name="com.qa.HIS.BrowserCompatibility_HIS.PM10638_LaboratoryTest"/>
+     <!--class name="com.qa.HIS.BrowserCompatibility_HIS.LabworklistTestIPD"/>
+     <class name="com.qa.HIS.BrowserCompatibility_HIS.LabworklistTestOPD"/-->
+    </classes>
+  </test> 
+  </suite>
