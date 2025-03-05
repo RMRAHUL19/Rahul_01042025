@@ -381,42 +381,42 @@ public class AudioVideoConsultationCRTest extends CrossBrowser {
 		
 	
 	
-//	@Test(priority = 9)
-//	@Parameters("browser")
-//	public void CheckFunctionalityOfFollowUp(String Browser) throws InterruptedException, AWTException{
-//		
-//	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
-//		
-//		try {
-//			handleUnexpectedAlert();
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
-//		
-//		CRR.getfollowuptab().click();
-//		Thread.sleep(4000);
-//		CRR.getradbtnfollow().click();
-//		Thread.sleep(4000);
-//		CRR.gettxtfollowafter().sendKeys("5");
-//		Thread.sleep(4000);
-//		CRR.gettxtfollowdate().click();
-//		Thread.sleep(4000);
-//		CRR.getbtnAdviceClear().click();
-//		Thread.sleep(4000);
-//		CRR.getfollowuptab().click();
-//		Thread.sleep(4000);
-//		CRR.getradbtnfollow().click();
-//		Thread.sleep(4000);
-//		CRR.gettxtfollowafter().sendKeys("6");
-//		Thread.sleep(4000);
-//		CRR.gettxtfollowdate().click();
-//		Thread.sleep(4000);
-//		CRR.getsavebtnfollowup().click();
-//		wait.until(ExpectedConditions.alertIsPresent());
-//		Alert alert = driver.switchTo().alert();
-//		alert.accept();
-//
-//	}
+	@Test(priority = 9)
+	@Parameters("browser")
+	public void CheckFunctionalityOfFollowUp(String Browser) throws InterruptedException, AWTException{
+		
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+		
+		try {
+			handleUnexpectedAlert();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		CRR.getfollowuptab().click();
+		Thread.sleep(4000);
+		CRR.getradbtnfollow().click();
+		Thread.sleep(4000);
+		CRR.gettxtfollowafter().sendKeys("5");
+		Thread.sleep(4000);
+		CRR.gettxtfollowdate().click();
+		Thread.sleep(4000);
+		CRR.getbtnAdviceClear().click();
+		Thread.sleep(4000);
+		CRR.getfollowuptab().click();
+		Thread.sleep(4000);
+		CRR.getradbtnfollow().click();
+		Thread.sleep(4000);
+		CRR.gettxtfollowafter().sendKeys("6");
+		Thread.sleep(4000);
+		CRR.gettxtfollowdate().click();
+		Thread.sleep(4000);
+		CRR.getsavebtnfollowup().click();
+		wait.until(ExpectedConditions.alertIsPresent());
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
+
+	}
 		
 		
 	@Test(priority = 10)
