@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.qa.HIS.BrowserCompatibility_HIS.Listner" />
+</listeners>
+ <test thread-count="5" name="firefox">
+  <parameter name="browser" value="firefox" />
+    <classes>
+		  <!--class name="com.qa.HIS.BrowserCompatibility_HIS.RackTest"/> 
+          <<class name="com.qa.HIS.BrowserCompatibility_HIS.PhysicalStockEntryTest"/> 
+          <class name="com.qa.HIS.BrowserCompatibility_HIS.AlterMRPPageTest"/>
+          <class name="com.qa.HIS.BrowserCompatibility_HIS.AdjustmentTest"/> 
+           <class name="com.qa.HIS.BrowserCompatibility_HIS.LossBreakageTest"/>
+           <class name="com.qa.HIS.BrowserCompatibility_HIS.StoreConsumptionTest"/>
+            <class name="com.qa.HIS.BrowserCompatibility_HIS.PM10589_StoreRepotsTest"/>
+        <class name="com.qa.HIS.BrowserCompatibility_HIS.PM10758_DirectIssueTest"/>-->
+    <class name="com.qa.HIS.BrowserCompatibility_HIS.IndentRaisedworkFlow"/>
+           
+          
+    </classes>
+  </test>  
+    <!-- <test thread-count="5" name="Chrome">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+    <class name="com.qa.HIS.BrowserCompatibility_HIS.PhysicalStockEntryTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.AlterMRPPageTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.AdjustmentTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.LossBreakageTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.StoreConsumptionTest"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Edge">
+  <parameter name="browser" value="Edge" />
+    <classes>
+    <class name="com.qa.HIS.BrowserCompatibility_HIS.PhysicalStockEntryTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.AlterMRPPageTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.AdjustmentTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.LossBreakageTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.StoreConsumptionTest"/>
+    </classes>
+  </test>  
+   <test thread-count="5" name="Opera">
+  <parameter name="browser" value="Opera" />
+    <classes>
+    <class name="com.qa.HIS.BrowserCompatibility_HIS.PhysicalStockEntryTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.AlterMRPPageTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.AdjustmentTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.LossBreakageTest"/>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.StoreConsumptionTest"/>
+    </classes>
+  </test>    -->
+</suite> <!-- Suite -->

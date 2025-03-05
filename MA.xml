@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.qa.HIS.BrowserCompatibility_HIS.Listner" />
+</listeners>
+   <test thread-count="5" name="firefox">
+  <parameter name="browser" value="firefox" />
+    <classes>
+    
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest1"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest2"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest3"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest4"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest5"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest6"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest7"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest8"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MAApprovalTest1"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MAApprovalTest2"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MAApprovalTest3"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MAApprovalTest4"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MAApprovalTest5"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MAApprovalTest6"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MAApprovalTest7"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MAApprovalTest8"/>
+	
+	
+    </classes>
+      </test> 
+    
+   <!--test thread-count="5" name="Chrome">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+		
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest1"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest2"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest3"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest4"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest5"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest6"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest7"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest8"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest9"/> 
+        
+    </classes>
+  </test-->
+  
+  
+  <!--test thread-count="5" name="Edge">
+  <parameter name="browser" value="Edge" />
+    <classes>
+		
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest1"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest2"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest3"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest4"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest5"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest6"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest7"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest8"/>
+	<class name="com.qa.HIS.BrowserCompatibility_HIS.MATest9"/>
+
+    </classes>
+  </test--> 
+  
+   
+  <!--test thread-count="5" name="Opera">
+  <parameter name="browser" value="Opera" />
+    <classes>
+		
+<class name="com.qa.HIS.BrowserCompatibility_HIS.MATesttest"/>
+
+    </classes>
+  </test!-->
+</suite> <!--Suite-->
