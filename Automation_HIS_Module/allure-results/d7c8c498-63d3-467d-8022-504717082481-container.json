@@ -1,1 +1,0 @@
-{"uuid":"d7c8c498-63d3-467d-8022-504717082481","name":"com.qa.tests.CDRTest","children":["9096579e-ef00-4ad7-91a9-dc10a955eb19"],"befores":[{"name":"setuptest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1640166470303,"stop":1640166477119}],"afters":[],"links":[],"start":1640166470282,"stop":1640166494920}
