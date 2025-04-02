@@ -246,7 +246,7 @@ public void doLoginTest() throws IOException {
 		Thread.sleep(5000);
 
 		 Set<String> windowHandles = driver.getWindowHandles();
-	        List<String> windowHandlesList = new ArrayList<>(windowHandles); //Set to List Conversion
+	        List<String> windowHandlesList = new ArrayList<String>(windowHandles); //Set to List Conversion
 	        System.out.println("Total window number: " + windowHandlesList.size() + "\n");
 	        driver.switchTo().window(windowHandlesList.get(2));
 	        System.out.println(driver.getTitle());
@@ -265,7 +265,7 @@ public void doLoginTest() throws IOException {
 		Thread.sleep(5000);
 
 		 Set<String> windowHandles = driver.getWindowHandles();
-	        List<String> windowHandlesList = new ArrayList<>(windowHandles);
+	        List<String> windowHandlesList = new ArrayList<String>(windowHandles);
 	        System.out.println("Total window number: " + windowHandlesList.size() + "\n");
 	        driver.switchTo().window(windowHandlesList.get(2));
 	        System.out.println(driver.getTitle());

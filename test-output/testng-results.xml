@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-02T12:45:03 IST" name="Suite" finished-at="2025-04-02T12:47:57 IST" duration-ms="173511">
+  <suite started-at="2025-04-02T15:23:07 IST" name="Suite" finished-at="2025-04-02T15:26:05 IST" duration-ms="178470">
     <groups>
     </groups>
-    <test started-at="2025-04-02T12:45:03 IST" name="Firefox" finished-at="2025-04-02T12:47:57 IST" duration-ms="173511">
+    <test started-at="2025-04-02T15:23:07 IST" name="Firefox" finished-at="2025-04-02T15:26:05 IST" duration-ms="178470">
       <class name="com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T12:45:03 IST" name="setup" finished-at="2025-04-02T12:45:12 IST" duration-ms="8942" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T15:23:07 IST" name="setup" finished-at="2025-04-02T15:23:15 IST" duration-ms="8204" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="doLoginTest()[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T12:45:12 IST" name="doLoginTest" finished-at="2025-04-02T12:45:23 IST" duration-ms="10353" status="PASS">
+        <test-method signature="doLoginTest()[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T15:23:15 IST" name="doLoginTest" finished-at="2025-04-02T15:23:25 IST" duration-ms="9748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginTest -->
-        <test-method signature="doNavigateToSelectHospitalLocationTest()[pri:1, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T12:45:23 IST" name="doNavigateToSelectHospitalLocationTest" finished-at="2025-04-02T12:45:24 IST" duration-ms="1014" status="PASS">
+        <test-method signature="doNavigateToSelectHospitalLocationTest()[pri:1, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T15:23:25 IST" name="doNavigateToSelectHospitalLocationTest" finished-at="2025-04-02T15:23:26 IST" duration-ms="1009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doNavigateToSelectHospitalLocationTest -->
-        <test-method signature="doNavigateToHISHomeTest(java.lang.String)[pri:2, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T12:45:24 IST" name="doNavigateToHISHomeTest" finished-at="2025-04-02T12:45:37 IST" duration-ms="12545" status="PASS">
+        <test-method signature="doNavigateToHISHomeTest(java.lang.String)[pri:2, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T15:23:26 IST" name="doNavigateToHISHomeTest" finished-at="2025-04-02T15:23:38 IST" duration-ms="12356" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doNavigateToHISHomeTest -->
-        <test-method signature="doNavigateToHomeSampleCollectionSchedulerLink()[pri:3, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T12:45:37 IST" name="doNavigateToHomeSampleCollectionSchedulerLink" finished-at="2025-04-02T12:45:47 IST" duration-ms="9690" status="PASS">
+        <test-method signature="doNavigateToHomeSampleCollectionSchedulerLink()[pri:3, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T15:23:38 IST" name="doNavigateToHomeSampleCollectionSchedulerLink" finished-at="2025-04-02T15:23:52 IST" duration-ms="14226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doNavigateToHomeSampleCollectionSchedulerLink -->
-        <test-method signature="doCreateCheckInPageTest()[pri:4, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T12:45:47 IST" name="doCreateCheckInPageTest" finished-at="2025-04-02T12:46:32 IST" duration-ms="45139" status="PASS">
+        <test-method signature="doCreateCheckInPageTest()[pri:4, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T15:23:53 IST" name="doCreateCheckInPageTest" finished-at="2025-04-02T15:24:39 IST" duration-ms="46809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doCreateCheckInPageTest -->
-        <test-method signature="ProvisionToViewABHANumberandAadharAvailabilityStatusonPatientcasesheet()[pri:5, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T12:46:32 IST" name="ProvisionToViewABHANumberandAadharAvailabilityStatusonPatientcasesheet" finished-at="2025-04-02T12:47:46 IST" duration-ms="74305" status="FAIL">
+        <test-method signature="ProvisionToViewABHANumberandAadharAvailabilityStatusonPatientcasesheet()[pri:5, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T15:24:39 IST" name="ProvisionToViewABHANumberandAadharAvailabilityStatusonPatientcasesheet" finished-at="2025-04-02T15:25:54 IST" duration-ms="75021" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Available] but found []]]>
@@ -91,11 +91,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProvisionToViewABHANumberandAadharAvailabilityStatusonPatientcasesheet -->
-        <test-method signature="ProvisionofABHANumberandABHAAddressinthePDFreports()[pri:6, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T12:47:46 IST" name="ProvisionofABHANumberandABHAAddressinthePDFreports" finished-at="2025-04-02T12:47:57 IST" duration-ms="10356" status="PASS">
+        <test-method signature="ProvisionofABHANumberandABHAAddressinthePDFreports()[pri:6, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T15:25:55 IST" name="ProvisionofABHANumberandABHAAddressinthePDFreports" finished-at="2025-04-02T15:26:05 IST" duration-ms="10340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProvisionofABHANumberandABHAAddressinthePDFreports -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T12:47:57 IST" name="closeBrowser" finished-at="2025-04-02T12:47:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-02T15:26:05 IST" name="closeBrowser" finished-at="2025-04-02T15:26:05 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
