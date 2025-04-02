@@ -302,6 +302,18 @@ public class HISHomePage extends BasePage {
 			return new HomeDrugDeliveryPage(driver);
 
 		}
+		
+		//AbhaNumberAndAbhaAddressLink
+		
+		 public AbhaNumberAndAbhaAddressPage doNavigateToPatientcheckin_AbhaNumberAndAbhaAddressLink() {
+				utilobj.MoveElement(getRegistrationLink(), driver);
+
+				getPatientCheckInLink().click();
+
+				return new AbhaNumberAndAbhaAddressPage(driver);
+
+			}
+
 	 	
 	 	
 	     

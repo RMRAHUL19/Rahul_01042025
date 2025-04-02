@@ -16,6 +16,7 @@ import com.qa.pages.HISHomePage;
 import com.qa.pages.HomePage;
 import com.qa.pages.Loginpage;
 import com.qa.pages.SelectHospitalLocationPage;
+import com.qa.util.util;
 
 @SuppressWarnings("unused")
 public class AdjustmentTest  extends CrossBrowser {
