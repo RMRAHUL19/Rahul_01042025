@@ -151,6 +151,8 @@ public class HomeDrugDeliveryPage extends BasePage {
 		return getElement(addbtn);
 	}
 	private By allopathic=By.xpath("/html/body/form/div[3]/div[2]/table/tbody/tr/td/div/table[1]/tbody/tr[1]/td/input[1]");
+	///html/body/form/div[4]/div[2]/table/tbody/tr/td/div/table[1]/tbody/tr[1]/td/input[1]
+	///html/body/form/div[3]/div[2]/table/tbody/tr/td/div/table[1]/tbody/tr[1]/td/input[1]
 	public WebElement getallopathic() {
 		return getElement(allopathic);
 	}
@@ -202,7 +204,7 @@ public class HomeDrugDeliveryPage extends BasePage {
 	public WebElement getdelete() {
 		return getElement(delete);
 	}
-	private By PharmacyIssue = By.xpath("/html/body/div[1]/form/div[3]/div[2]/table/tbody/tr/td[2]/div/div[4]/table/tbody/tr[2]/td/table/tbody/tr/td/div/ul[4]/li[10]/a");
+	private By PharmacyIssue = By.xpath("/html/body/div[1]/form/div[3]/div[2]/table/tbody/tr/td[2]/div/div[5]/table/tbody/tr[2]/td/table/tbody/tr/td/div/ul[4]/li[10]/a");
     public WebElement getPharmacyIssue() {
 		return getElement(PharmacyIssue);
 
@@ -215,7 +217,7 @@ public class HomeDrugDeliveryPage extends BasePage {
 	public WebElement getbtnHDDPrint() {
 		return getElement(btnHDDPrint);
 	}
-	private By homedrugdeliveryreports=By.id("ctl00_ctl00_cphpage_cphReportMenu_trvReportst0");
+	private By homedrugdeliveryreports=By.id("ctl00_ctl00_cphpage_cphReportMenu_trvReportst181");
 	public WebElement gethomedrugdeliveryreports() {
 		return getElement(homedrugdeliveryreports);
 	}

@@ -1,5 +1,4 @@
 package com.qa.HIS.BrowserCompatibility_HIS;
-
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.io.IOException;
@@ -17,6 +16,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.jogamp.newt.event.KeyEvent;
+import com.qa.pages.AbhaNumberAndAbhaAddressPage;
 import com.qa.pages.HISHomePage;
 import com.qa.pages.HomePage;
 import com.qa.pages.Loginpage;
@@ -36,6 +36,7 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
 	Loginpage loginpage;
 	HomePage homepage;
 	SelectHospitalLocationPage selecthospitallocationpage;
+	AbhaNumberAndAbhaAddressPage AbhaNumberAndAbhaAddressPage;
 	HISHomePage hishomepage;
 	HomeDrugDeliveryPage HomeDrugDeliveryPage;
 	String typevalue;
@@ -48,6 +49,7 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
 		loginpage = new Loginpage(driver);
 		util.executeKeyPressCombination(3);
 		homepage = loginpage.doLogin(prop.getProperty("uidd"), prop.getProperty("StagingPass"));
+		driver.manage().window().maximize();
 
 	}
 
@@ -69,7 +71,8 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
 
 	@Test(priority = 3)
 	public void donavigatetoHomeDrugDeliverlink() throws IOException {
-		
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(2));
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[1]/form/div[3]/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr/td[16]/table/tbody/tr/td/a")));
 		HomeDrugDeliveryPage = hishomepage.donavigatetoHomeDrugDeliverlink();
 	}
 	
@@ -81,7 +84,7 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
 		Thread.sleep(500);
 
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ctl00_cphpage_txtIPNO")));
-        HomeDrugDeliveryPage.gettxtIPNO().sendKeys("1115104628");
+        HomeDrugDeliveryPage.gettxtIPNO().sendKeys("1115104629");
 		Thread.sleep(500);
 		HomeDrugDeliveryPage.getlnkbtnIPNo().click();
 		Thread.sleep(500);
@@ -157,14 +160,15 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
     	@Parameters("browser")
     	public void check_the_eligibility_for_the_home_drug_delivery_by_the_OPD_Doctor (String Browser) throws InterruptedException, IOException{
         	
-        	Thread.sleep(1000);
-        	HomeDrugDeliveryPage = hishomepage.doNavigateToPatientCheck_InforHomeDrugDeliveryPage();
-        	
+        	Thread.sleep(2000);
+        	//HomeDrugDeliveryPage = hishomepage.donavigatetoHomeDrugDeliverlink();
+        	//HomeDrugDeliveryPage = hishomepage.doNavigateToPatientcheckin_AbhaNumberAndAbhaAddressLink();
         	//opdflowPages.getgenratechekIn();	
-			Thread.sleep(500);
+        	HomeDrugDeliveryPage = hishomepage.donavigatetoPatientCheckInlink();
+			Thread.sleep(1000);
 			WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(60));
 			 wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ctl00_cphpage_txtIPNO")));
-			 driver.findElement(By.id("ctl00_cphpage_txtIPNO")).sendKeys("1115104628");
+			 driver.findElement(By.id("ctl00_cphpage_txtIPNO")).sendKeys("1115104629");
 			 Thread.sleep(500);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("ctl00_cphpage_lnkbtnIPNo")));
 				driver.findElement(By.id("ctl00_cphpage_lnkbtnIPNo")).click();
@@ -180,16 +184,15 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
 				
 				//opdflowPages.getpatientCheckInNumberSeviceOkButton().click();
 				
-				utilobj.JSClick(HomeDrugDeliveryPage.getpatientCheckInNumberSeviceOkButton(), driver);
+			utilobj.JSClick(HomeDrugDeliveryPage.getpatientCheckInNumberSeviceOkButton(), driver);
 			Thread.sleep(4000);
-			// 
+		   // HomeDrugDeliveryPage.getbtnSave().click();
 			HomeDrugDeliveryPage.getpatientCheckInNumberSaveButton().click();
 			Thread.sleep(4000);
-			
-			checkIN = utilobj.GetCheckinNumberText(HomeDrugDeliveryPage.getPopupmessage(), driver);
+		    checkIN = utilobj.GetCheckinNumberText(HomeDrugDeliveryPage.getPopupmessage(), driver);
 			Thread.sleep(2000);
 
-			HomeDrugDeliveryPage.getBtncancel().click();
+		    HomeDrugDeliveryPage.getBtncancel().click();
 			wait.until(ExpectedConditions.visibilityOf(HomeDrugDeliveryPage.getClinicalRecordsLink()));
 			
 			utilobj.MoveElement(HomeDrugDeliveryPage.getClinicalRecordsLink(), driver);
@@ -198,35 +201,40 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
 			Thread.sleep(1000);
 			HomeDrugDeliveryPage.getDoctorWorklistLink().click();
 			
-			try {
-				  Thread.sleep(500);
-					wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("ctl00_cphpage_MyMessageBoxInfo_ButtonOK"))));
-					driver.findElement(By.id("ctl00_cphpage_MyMessageBoxInfo_ButtonOK")).click();
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			  Thread.sleep(1000);
+			//try {
+				 // Thread.sleep(500);
+				//	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("ctl00_cphpage_MyMessageBoxInfo_ButtonOK"))));
+				//	driver.findElement(By.id("ctl00_cphpage_MyMessageBoxInfo_ButtonOK")).click();
+				//} catch (Exception e) {
+					//e.printStackTrace();
+			//	}
+			  Thread.sleep(2000);
 			
 			wait.until(ExpectedConditions.visibilityOf(HomeDrugDeliveryPage.getcheckin_no_link_Link()));
-			HomeDrugDeliveryPage.getTxtboxCheckInno().sendKeys(checkIN);
+			//HomeDrugDeliveryPage.getTxtboxCheckInno().sendKeys(checkIN);
+			HomeDrugDeliveryPage.getcheckin_no_link_Link().click();
 			Thread.sleep(2000);
-			HomeDrugDeliveryPage.getimgCheckinnosearch().click();
-			Thread.sleep(1000);
-			wait.until(ExpectedConditions.visibilityOf(HomeDrugDeliveryPage.getOpenStanderdCaseSheet()));
-			HomeDrugDeliveryPage.getOpenStanderdCaseSheet().click();
-			Thread.sleep(500);
-			try {
-				HomeDrugDeliveryPage.getpopup_ok().click();
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			//HomeDrugDeliveryPage.getimgCheckinnosearch().click();
+			//Thread.sleep(1000);
+		//	wait.until(ExpectedConditions.visibilityOf(HomeDrugDeliveryPage.getOpenStanderdCaseSheet()));
+		//	HomeDrugDeliveryPage.getOpenStanderdCaseSheet().click();
+		//	Thread.sleep(500);
+		//	try {
+			//	HomeDrugDeliveryPage.getpopup_ok().click();
+			//} catch (Exception e) {
+			//	// TODO Auto-generated catch block
+			//	e.printStackTrace();
+		//	}
 			
 			 //edit address
 			
-			Thread.sleep(1000);
+			//Thread.sleep(1000);
+			HomeDrugDeliveryPage.getChkEligible().click();
+			Thread.sleep(2000);
+			HomeDrugDeliveryPage.getButtonYes().click();
+			Thread.sleep(2000);
 			HomeDrugDeliveryPage.getLnkaddress().click();
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			utilobj.SwitchToChildWindow(driver, "HomeDrugDeliveryAddressRegister");
 			Thread.sleep(1000);
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ctl00_cphpage_btnSave")));
@@ -281,7 +289,7 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-	        Thread.sleep(1000);
+	       // Thread.sleep(1000);
 	        
 	        //medication prescription
 	        
@@ -292,18 +300,18 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
 	        Thread.sleep(2000);
 	        
 			
-	        try {
-				wait.until(ExpectedConditions.presenceOfElementLocated(By.id("btnDeLeteM3")));
-				HomeDrugDeliveryPage.getdelete().click();
-			} catch (Exception e) {
+	      //  try {
+			//	wait.until(ExpectedConditions.presenceOfElementLocated(By.id("btnDeLeteM3")));
+			//	HomeDrugDeliveryPage.getdelete().click();
+			//} catch (Exception e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-	        Thread.sleep(3000);
+			//	e.printStackTrace();
+			//}
+	       // Thread.sleep(3000);
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.id("btnADDM")));
-			Thread.sleep(500);
+			Thread.sleep(2000);
 	        HomeDrugDeliveryPage.getaddbtn().click();
-	        Thread.sleep(1000);
+	        Thread.sleep(4000);
 	        HomeDrugDeliveryPage.getallopathic().click();
 	        Thread.sleep(1000);
 	        HomeDrugDeliveryPage.gettxtSearch().sendKeys("test");
@@ -365,7 +373,7 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
                 
                 utilobj.MoveElement(driver.findElement(By.linkText("Stores")), driver);
                 Thread.sleep(3000);	
-                wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[1]/form/div[3]/div[2]/table/tbody/tr/td[2]/div/div[4]/table/tbody/tr[2]/td/table/tbody/tr/td/div/ul[4]/li[10]/a")));
+               // wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[1]/form/div[3]/div[2]/table/tbody/tr/td[2]/div/div[4]/table/tbody/tr[2]/td/table/tbody/tr/td/div/ul[4]/li[10]/a")));
                 HomeDrugDeliveryPage.getPharmacyIssue().click();
                 Thread.sleep(2000);
                 wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ctl00_cphpage_lnkHomeDrugWorklist")));
@@ -386,7 +394,7 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
 
                 loginpage = new Loginpage(driver);
 
-                homepage = loginpage.doLogin(prop.getProperty("HQuidd"), prop.getProperty("StagingPass"));
+                homepage = loginpage.doLogin(prop.getProperty("uidd"), prop.getProperty("StagingPass"));
                 Thread.sleep(2000);
                 selecthospitallocationpage = homepage.doNavigateToSelectHospitalLocation();
                 Thread.sleep(2000);
@@ -394,8 +402,9 @@ public class HomeDrugDeliveryTest extends CrossBrowser {
                 Thread.sleep(2000);
                 HomeDrugDeliveryPage = hishomepage.donavigatetoHomeDrugDeliveryReport();
                 Thread.sleep(2000);
-                wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ctl00_ctl00_cphpage_cphReportMenu_trvReportst0")));
+                wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ctl00_ctl00_cphpage_cphReportMenu_trvReportst181")));
                 HomeDrugDeliveryPage.gethomedrugdeliveryreports().click();
+               // ctl00_ctl00_cphpage_cphReportMenu_trvReportst181
                 Thread.sleep(2000);
                 HomeDrugDeliveryPage.gettxtFromDate().click();
                 Thread.sleep(2000);

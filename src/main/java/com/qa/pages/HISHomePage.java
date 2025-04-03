@@ -47,9 +47,13 @@ public class HISHomePage extends BasePage {
 	     }
 	   
 	   
+	   //Home Drug Delivery/donavigatetoPatientCheckInlink
 	
-	
-	
+	   public HomeDrugDeliveryPage donavigatetoPatientCheckInlink() {
+	    	 utilobj.MoveElement(getRegistrationLink(), driver);
+	    	 getPatientCheckInLink().click();
+	    	 return new HomeDrugDeliveryPage(driver);
+	     }
 	
 	
 	

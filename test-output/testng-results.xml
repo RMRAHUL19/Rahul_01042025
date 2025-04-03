@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-03T12:52:26 IST" name="Suite" finished-at="2025-04-03T12:52:51 IST" duration-ms="24878">
+  <suite started-at="2025-04-03T16:02:05 IST" name="Suite" finished-at="2025-04-03T16:06:59 IST" duration-ms="294957">
     <groups>
     </groups>
-    <test started-at="2025-04-03T12:52:26 IST" name="Firefox" finished-at="2025-04-03T12:52:51 IST" duration-ms="24878">
-      <class name="com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-03T12:52:26 IST" name="setup" finished-at="2025-04-03T12:52:51 IST" duration-ms="24699" status="FAIL">
+    <test started-at="2025-04-03T16:02:05 IST" name="Firefox" finished-at="2025-04-03T16:06:59 IST" duration-ms="294957">
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest@3a3e78f]" started-at="2025-04-03T16:02:05 IST" name="setup" finished-at="2025-04-03T16:02:08 IST" duration-ms="3296" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -15,189 +15,18 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-at com.qa.HIS.BrowserCompatibility_HIS.CrossBrowser.setup(CrossBrowser.java:157)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="doLoginTest()[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-03T12:52:51 IST" name="doLoginTest" finished-at="2025-04-03T12:52:51 IST" duration-ms="1" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-at com.qa.HIS.BrowserCompatibility_HIS.CrossBrowser.setup(CrossBrowser.java:157)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="doLoginTest()[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest@3a3e78f]" started-at="2025-04-03T16:02:08 IST" name="doLoginTest" finished-at="2025-04-03T16:02:09 IST" duration-ms="1022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginTest -->
-        <test-method signature="doNavigateToSelectHospitalLocationTest()[pri:1, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-03T12:52:51 IST" name="doNavigateToSelectHospitalLocationTest" finished-at="2025-04-03T12:52:51 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-at com.qa.HIS.BrowserCompatibility_HIS.CrossBrowser.setup(CrossBrowser.java:157)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="doNavigateToSelectHospitalLocationTest()[pri:1, instance:com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest@3a3e78f]" started-at="2025-04-03T16:02:09 IST" name="doNavigateToSelectHospitalLocationTest" finished-at="2025-04-03T16:02:10 IST" duration-ms="1017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doNavigateToSelectHospitalLocationTest -->
-        <test-method signature="doNavigateToHISHomeTest(java.lang.String)[pri:2, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-03T12:52:51 IST" name="doNavigateToHISHomeTest" finished-at="2025-04-03T12:52:51 IST" duration-ms="0" status="SKIP">
+        <test-method signature="doNavigateToHISHomeTest(java.lang.String)[pri:2, instance:com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest@3a3e78f]" started-at="2025-04-03T16:02:10 IST" name="doNavigateToHISHomeTest" finished-at="2025-04-03T16:02:17 IST" duration-ms="7195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -205,315 +34,62 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-at com.qa.HIS.BrowserCompatibility_HIS.CrossBrowser.setup(CrossBrowser.java:157)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doNavigateToHISHomeTest -->
-        <test-method signature="doNavigateToHomeSampleCollectionSchedulerLink()[pri:3, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-03T12:52:51 IST" name="doNavigateToHomeSampleCollectionSchedulerLink" finished-at="2025-04-03T12:52:51 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-at com.qa.HIS.BrowserCompatibility_HIS.CrossBrowser.setup(CrossBrowser.java:157)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="donavigatetoHomeDrugDeliverlink()[pri:3, instance:com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest@3a3e78f]" started-at="2025-04-03T16:02:18 IST" name="donavigatetoHomeDrugDeliverlink" finished-at="2025-04-03T16:02:19 IST" duration-ms="1526" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doNavigateToHomeSampleCollectionSchedulerLink -->
-        <test-method signature="doCreateCheckInPageTest()[pri:4, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-03T12:52:51 IST" name="doCreateCheckInPageTest" finished-at="2025-04-03T12:52:51 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-at com.qa.HIS.BrowserCompatibility_HIS.CrossBrowser.setup(CrossBrowser.java:157)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- donavigatetoHomeDrugDeliverlink -->
+        <test-method signature="Provision_to_submit_the_address_for_home_drug_delivery(java.lang.String)[pri:4, instance:com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest@3a3e78f]" started-at="2025-04-03T16:02:19 IST" name="Provision_to_submit_the_address_for_home_drug_delivery" finished-at="2025-04-03T16:02:44 IST" duration-ms="24266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doCreateCheckInPageTest -->
-        <test-method signature="ProvisionToViewABHANumberandAadharAvailabilityStatusonPatientcasesheet()[pri:5, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-03T12:52:51 IST" name="ProvisionToViewABHANumberandAadharAvailabilityStatusonPatientcasesheet" finished-at="2025-04-03T12:52:51 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-at com.qa.HIS.BrowserCompatibility_HIS.CrossBrowser.setup(CrossBrowser.java:157)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- Provision_to_submit_the_address_for_home_drug_delivery -->
+        <test-method signature="check_the_eligibility_for_the_home_drug_delivery_by_the_OPD_Doctor(java.lang.String)[pri:5, instance:com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest@3a3e78f]" started-at="2025-04-03T16:02:44 IST" name="check_the_eligibility_for_the_home_drug_delivery_by_the_OPD_Doctor" finished-at="2025-04-03T16:05:52 IST" duration-ms="187860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ProvisionToViewABHANumberandAadharAvailabilityStatusonPatientcasesheet -->
-        <test-method signature="ProvisionofABHANumberandABHAAddressinthePDFreports()[pri:6, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-03T12:52:51 IST" name="ProvisionofABHANumberandABHAAddressinthePDFreports" finished-at="2025-04-03T12:52:51 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//10.30.16.120/Hospital/login.aspx&c=UTF-8&d=The%20server%20at%2010.30.16.120%20is%20taking%20too%20long%20to%20respond.
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-FEC8FTO', ip: '10.20.20.247', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d4bc6a36-7a91-4d99-bce9-d8676af54ad4, get {url=http://10.30.16.120/Hospital/login.aspx}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13284, moz:profile: C:\Users\Presto\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: d4bc6a36-7a91-4d99-bce9-d8676af54ad4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-at com.qa.HIS.BrowserCompatibility_HIS.CrossBrowser.setup(CrossBrowser.java:157)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- check_the_eligibility_for_the_home_drug_delivery_by_the_OPD_Doctor -->
+        <test-method signature="Provision_to_view_and_print_the_worklist_for_the_Home_Drug_Delivery(java.lang.String)[pri:6, instance:com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest@3a3e78f]" started-at="2025-04-03T16:05:52 IST" name="Provision_to_view_and_print_the_worklist_for_the_Home_Drug_Delivery" finished-at="2025-04-03T16:06:05 IST" duration-ms="12914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ProvisionofABHANumberandABHAAddressinthePDFreports -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest@767e20cf]" started-at="2025-04-03T12:52:51 IST" name="closeBrowser" finished-at="2025-04-03T12:52:51 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- Provision_to_view_and_print_the_worklist_for_the_Home_Drug_Delivery -->
+        <test-method signature="Home_Drug_Delivery_Report_HQ_Report(java.lang.String)[pri:7, instance:com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest@3a3e78f]" started-at="2025-04-03T16:06:05 IST" name="Home_Drug_Delivery_Report_HQ_Report" finished-at="2025-04-03T16:06:59 IST" duration-ms="54664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Drug_Delivery_Report_HQ_Report -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest@3a3e78f]" started-at="2025-04-03T16:06:59 IST" name="closeBrowser" finished-at="2025-04-03T16:06:59 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest -->
+      </class> <!-- com.qa.HIS.BrowserCompatibility_HIS.HomeDrugDeliveryTest -->
     </test> <!-- Firefox -->
   </suite> <!-- Suite -->
 </testng-results>
