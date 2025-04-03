@@ -9,8 +9,14 @@
     <classes>
       <class name="com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest">
         <methods>
+          <include name="doLoginTest"/>
+          <include name="doNavigateToHISHomeTest"/>
+          <include name="doNavigateToSelectHospitalLocationTest"/>
           <include name="ProvisionToViewABHANumberandAadharAvailabilityStatusonPatientcasesheet"/>
           <include name="closeBrowser"/>
+          <include name="doNavigateToHomeSampleCollectionSchedulerLink"/>
+          <include name="doCreateCheckInPageTest"/>
+          <include name="ProvisionofABHANumberandABHAAddressinthePDFreports"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.qa.HIS.BrowserCompatibility_HIS.AbhaNumberAndAbhaAddressTest -->
